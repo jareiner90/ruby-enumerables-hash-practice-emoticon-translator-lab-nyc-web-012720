@@ -19,9 +19,16 @@ def load_library(library)
   pp returned_hash
 end
 
-def get_japanese_emoticon(YAML_file_path, emoticon)
-  lib = load_library(YAML_file_path)
+
+def get_japanese_emoticon(file, emoticon)
+  lib = load_library(file)
 end
+
+
+
+
+
+
 # def get_english_meaning(file, emoticon)
 #   emojis = load_library(file)
 #   if emojis["get_meaning"][emoticon] == nil
