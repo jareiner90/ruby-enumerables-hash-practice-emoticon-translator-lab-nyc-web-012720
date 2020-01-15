@@ -13,7 +13,8 @@ def load_library(library)
   library.each do |key, value|
     english = value[0]
     japan = value[1]
-    
+    returned_hash["get_meaning"][key]
+    returned_hash["get_meaning"]
   end
 end
 
