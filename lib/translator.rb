@@ -32,5 +32,6 @@ end
 
 def get_english_meaning(file, emoticon)
   lib = load_library(file)
-  
+  sorry_message = "Sorry, that emoticon was not found"
+  pp lib["get_meaning"]
 end
