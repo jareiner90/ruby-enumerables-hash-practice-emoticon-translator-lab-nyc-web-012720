@@ -13,7 +13,7 @@ def load_library(library)
   library.each do |key, value|
     english = value[0]
     japan = value[1]
-    pp japan
+    pp english
 
   end
 end
