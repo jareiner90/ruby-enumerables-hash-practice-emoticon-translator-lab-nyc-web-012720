@@ -12,7 +12,7 @@ def load_library(library)
   }
   library.each do |key, value|
     pp key
-    pp value
+
   end
 end
 
