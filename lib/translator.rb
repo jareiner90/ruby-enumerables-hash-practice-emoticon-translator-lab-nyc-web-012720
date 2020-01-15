@@ -20,7 +20,7 @@ def load_library(library)
 end
 
 def get_japanese_emoticon(YAML_file_path, emoticon)
-
+  
 end
 # def get_english_meaning(file, emoticon)
 #   emojis = load_library(file)
