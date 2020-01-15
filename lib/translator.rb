@@ -11,7 +11,8 @@ def load_library(library)
     "get_emoticon" => {}
   }
   library.each do |key, value|
-    
+    pp key
+    pp value
   end
 end
 
