@@ -7,7 +7,8 @@ def load_library(library)
   # code goes here
   library = YAML.load_file("./lib/emoticons.yml")
   returned_hash = {
-    
+    "get_meaning" => {},
+    "get_emoticon" => {}
   }
 end
 
