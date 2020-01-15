@@ -16,13 +16,13 @@ def load_library(library)
     returned_hash["get_meaning"][japan] = key
     returned_hash["get_emoticon"][english] = japan
   end
-  pp returned_hash
+  returned_hash
 end
 
 
 def get_japanese_emoticon(file, emoticon)
   lib = load_library(file)
-  if 
+  pp lib["get_emoticon"]
 end
 
 
