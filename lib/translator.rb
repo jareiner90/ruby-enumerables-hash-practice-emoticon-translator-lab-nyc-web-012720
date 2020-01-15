@@ -11,7 +11,8 @@ def load_library(library)
     "get_emoticon" => {}
   }
   library.each do |key, value|
-    japan = value[0]
+    english = value[0]
+    japan = value[1]
     pp japan
 
   end
